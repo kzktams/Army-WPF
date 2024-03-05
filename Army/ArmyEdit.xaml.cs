@@ -19,7 +19,7 @@ namespace Army
     /// </summary>
     public partial class ArmyEdit : Window
     {
-        public ArmyEdit()
+        public ArmyEdit(Trooper trooper)
         {
             InitializeComponent();
         }

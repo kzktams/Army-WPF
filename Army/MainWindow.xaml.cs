@@ -59,6 +59,8 @@ namespace Army
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             
+            ArmyEdit ae = new ArmyEdit((Trooper)lBox2.SelectedItem);
+            ae.ShowDialog();
         }
     }
 }
