@@ -22,11 +22,12 @@ namespace Army
         public ArmyEdit(Trooper trooper)
         {
             InitializeComponent();
+            this.DataContext = trooper;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }
