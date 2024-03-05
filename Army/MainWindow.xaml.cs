@@ -55,5 +55,10 @@ namespace Army
             }
             lb_cost.Content = allCost.ToString() + "$";
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

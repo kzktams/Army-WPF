@@ -43,7 +43,7 @@
             <Label x:Name="lb_cost" Padding="10" FontSize="10" Margin="10"></Label>
             <Button Content="Add" Padding="10" Margin="10" Click="Button_Click"></Button>
             <Button Content="Remove" Padding="10" Margin="10" Click="Button_Click_1"></Button>
-            <Button Content="Edit" Padding="10" Margin="10"></Button>
+            <Button Content="Edit" Padding="10" Margin="10" Click="Button_Click_2"></Button>
         </StackPanel>
         <ListBox Grid.Column="2" x:Name="lBox2">
             <ListBox.ItemTemplate>
