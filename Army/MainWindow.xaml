@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:Army"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
+    <Window.Resources>
+        <local:ColorConvert x:Key="colorconvert"></local:ColorConvert> 
+    </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="6*"></ColumnDefinition>
