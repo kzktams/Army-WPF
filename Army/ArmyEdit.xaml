@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Army"
         mc:Ignorable="d"
-        Title="ArmyEdit" Height="450" Width="332">
+        Title="ArmyEdit" Height="454" Width="332">
     <StackPanel>
-        
+        <Label Content="Type" Padding="10" Margin="10" Background="LightBlue"></Label>
+        <TextBox Text="{Binding Name}" Padding="10" Margin="10"></TextBox>
+        <Label Content="Power" Padding="10" Margin="10" Background="LightBlue"></Label>
+        <TextBox Text="{Binding Power}" Padding="10" Margin="10"></TextBox>
+        <Label Content="Vitality" Padding="10" Margin="10" Background="LightBlue"></Label>
+        <TextBox Text="{Binding Vitality}" Padding="10" Margin="10"></TextBox>
+        <Button Content="Save" Margin="10" Padding="10" Click="Button_Click"></Button>
     </StackPanel>
 </Window>
