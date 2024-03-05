@@ -30,8 +30,8 @@
                                 <RowDefinition Height="5*" />
                             </Grid.RowDefinitions>
                             <Label Content="{Binding Name}" Grid.Column="0" Grid.Row="0" />
-                            <ProgressBar Grid.Column="0" Grid.Row="1" Maximum="10" Value="{Binding Power}" Foreground="{Binding Power, Converter={StaticResource colorconvert}}" Margin="10"></ProgressBar>
-                            <ProgressBar Grid.Column="1" Grid.Row="1" Maximum="10" Value="{Binding Vitality}" Foreground="{Binding Vitality, Converter={StaticResource colorconvert}}" Margin="10"></ProgressBar>
+                            <ProgressBar Grid.Column="0" Grid.Row="1" Maximum="10" BorderThickness="5" Value="{Binding Power}" Foreground="{Binding Power, Converter={StaticResource colorconvert}}" Margin="10"></ProgressBar>
+                            <ProgressBar Grid.Column="1" Grid.Row="1" Maximum="10" BorderThickness="5" Value="{Binding Vitality}" Foreground="{Binding Vitality, Converter={StaticResource colorconvert}}" Margin="10"></ProgressBar>
                         </Grid>
                     </Border>
                 </DataTemplate>
